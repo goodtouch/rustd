@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'
+
+# set -vx ## Debug mode
+
+bundle check || bundle install

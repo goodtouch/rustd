@@ -1,0 +1,31 @@
+require:
+  # Standard's config uses custom cops,
+  # so it must be loaded along with custom Standard gems
+  - standard
+  - standard-custom
+  - standard-performance
+  - rubocop-performance
+
+inherit_gem:
+  standard: config/base.yml
+  standard-custom: config/base.yml
+  standard-performance: config/base.yml
+
+AllCops:
+  TargetRubyVersion: 3.2
+
+Layout/LineLength:
+  Max: 80
+
+Layout/SpaceInsideHashLiteralBraces:
+  Enabled: false
+
+Style/RedundantSelf:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: single_quotes
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: consistent_comma
