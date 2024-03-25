@@ -19,8 +19,8 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/goodtouch/rustd'
 
   s.metadata = {
-    # 'changelog_uri' => 'TODO: https://github.com/goodtouch/rustd/blob/master/CHANGELOG.md',
-    # 'documentation_uri' => 'TODO: https://www.rubydoc.info/gems/rustd',
+    'changelog_uri' => 'https://github.com/goodtouch/rustd/blob/main/CHANGELOG.md',
+    'documentation_uri' => 'https://www.rubydoc.info/gems/rustd',
     'homepage_uri' => s.homepage,
     # 'source_code_uri' => 'TODO: https://github.com/goodtouch/rustd',
   }
