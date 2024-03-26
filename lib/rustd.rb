@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 require_relative 'rustd/version'
+require_relative 'rustd/mut_data'
 require_relative 'rustd/enum'
+require_relative 'rustd/mut_enum'
 require_relative 'rustd/impl'
 require_relative 'rustd/result'
 require_relative 'rustd/option'
