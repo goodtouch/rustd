@@ -53,6 +53,10 @@ gem install rustd
 
 I wondered if I could find an idiomatic and (if possible) elegant way to implement some interesting Rust features within Ruby's dynamic and flexible environment. Could this make Ruby even cooler than it already is?
 
+So this is what this gem is about:
+
+* [**Enums with Associated Data**](docs/design/enums.md)
+
 ## Development
 
 After checking out the repo, run `make` to see what you can do and get started.
