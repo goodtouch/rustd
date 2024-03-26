@@ -4,6 +4,7 @@ require_relative 'rustd/version'
 require_relative 'rustd/enum'
 require_relative 'rustd/impl'
 require_relative 'rustd/result'
+require_relative 'rustd/option'
 
 module Rustd
   extend self
@@ -17,6 +18,11 @@ module Rustd
   # Contains the error value.
   Err = Result::Err
 
+  # No value
+  None = Option::None.new
+  # Some value
+  Some = Option::Some
+
   #
   # So that we can "instanciate" with `Ok(123)`
 
@@ -25,4 +31,8 @@ module Rustd
 
   # Creates an instance of `Result::Err` variant.
   def Err(e) = Result::Err(e)
+
+  # Creates an instance of `Option::Some` variant.
+  # delegate :Some, to: :Option
+  def Some(v) = Option::Some(v)
 end

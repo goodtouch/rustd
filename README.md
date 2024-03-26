@@ -58,6 +58,7 @@ So this is what this gem is about:
 * [**Enums with Associated Data**](docs/design/enums.md)
 * [**Traits for Shared Behavior**](docs/design/traits.md)
 * [**Robust Error Handling with Result**](docs/design/result.md)
+* [**The Option Type for Nullable Values**](docs/design/option.md)
 
 ## Development
 
