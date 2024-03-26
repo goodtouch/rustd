@@ -14,8 +14,14 @@ inherit_gem:
 AllCops:
   TargetRubyVersion: 3.2
 
+Layout/IndentationConsistency:
+  EnforcedStyle: indented_internal_methods
+
 Layout/LineLength:
   Max: 80
+
+Layout/SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
 
 Layout/SpaceInsideHashLiteralBraces:
   Enabled: false

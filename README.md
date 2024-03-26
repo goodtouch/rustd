@@ -57,6 +57,7 @@ So this is what this gem is about:
 
 * [**Enums with Associated Data**](docs/design/enums.md)
 * [**Traits for Shared Behavior**](docs/design/traits.md)
+* [**Robust Error Handling with Result**](docs/design/result.md)
 
 ## Development
 
