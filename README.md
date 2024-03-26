@@ -56,6 +56,7 @@ I wondered if I could find an idiomatic and (if possible) elegant way to impleme
 So this is what this gem is about:
 
 * [**Enums with Associated Data**](docs/design/enums.md)
+* [**Traits for Shared Behavior**](docs/design/traits.md)
 
 ## Development
 
